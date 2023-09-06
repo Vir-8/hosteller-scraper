@@ -1,0 +1,44 @@
+{
+  "get_hostels_url": "https://www.thehosteller.com/_next/data/thehosteller-build-id-03092023_01/hostels.json",
+  "hostel_id_url": "https://www.thehosteller.com/_next/data/thehosteller-build-id-03092023_01/hostels/",
+  "graphql_url": "https://api.thehosteller.com/api/graphql",
+  "duration_days": 10,
+  "max_retries": 3,
+  "retry_delay_seconds": 3,
+  "max_num_of_threads": 4,
+  "headers": [
+    {
+      "base_header": {
+        "authority": "www.thehosteller.com",
+        "accept": "*/*",
+        "accept-language": "en-GB,en;q=0.6",
+        "sec-ch-ua": "Chromium;v=\"116\", \"Not)A;Brand\";v=\"24\", \"Brave\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "Linux",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "sec-gpc": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+        "x-nextjs-data": "1"
+      },
+
+      "data_header": {
+        "authority": "api.thehosteller.com",
+        "accept": "*/*",
+        "accept-language": "en-GB,en;q=0.6",
+        "authorization": "null",
+        "content-type": "application/json",
+        "origin": "https://www.thehosteller.com",
+        "sec-ch-ua": "Chromium;v=\"116\", \"Not)A;Brand\";v=\"24\", \"Brave\";v=\"116\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "Linux",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site",
+        "sec-gpc": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+      }
+    }
+  ]
+}
